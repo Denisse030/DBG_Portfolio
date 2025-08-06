@@ -32,13 +32,35 @@ export default function Project6() {
         for more complex JavaScript-based applications that I would develop in
         the future.
       </p>
-      <Link
-        href={" https://github.com/Denisse030/Movie-Catalog.git"}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Link to GitHub Project
-      </Link>
+      <a
+  href="https://github.com/Denisse030/Movie-Catalog.git"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    marginTop: "16px",
+    fontSize: "15px",
+    backgroundColor: "#fcddec",
+    color: "#000",
+    padding: "10px 16px",
+    borderRadius: "8px",
+    textDecoration: "none",
+    fontWeight: "bold",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+    transition: "all 0.3s ease-in-out",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = "#fe8ebdd3";
+    e.currentTarget.style.transform = "scale(1.03)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = "#fcddec";
+    e.currentTarget.style.transform = "scale(1)";
+  }}
+>
+  🔗 View GitHub Project
+</a>
+
       <br></br>
 
       <div

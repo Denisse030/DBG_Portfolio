@@ -8,7 +8,6 @@ import BottomNav from "../components/BottomNav";
 import Education from "../components/Education";
 
 import styles from "../styles/Home.module.css";
-import "../styles/globals.css";
 
 export default function Home() {
   return (
