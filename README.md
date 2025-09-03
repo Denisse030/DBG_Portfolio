@@ -6,7 +6,7 @@ See below my personal portfolio, showcasing my projects!
 
 Outside of the tech bubble, I'm a huge coffee lover, draw, and love playing board games!
 
-Link to my portfolio: [https://denissebenito.netlify.app](https://denissebenito.netlify.app)
+Link to my portfolio: [https://denissebenito.com](https://denissebenito.com)
 
 ## Getting Started
 
