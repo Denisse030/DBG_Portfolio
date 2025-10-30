@@ -39,7 +39,7 @@ export default function Project1() {
         dashboard for managing users, reviewing logs, and assigning permissions.
       </p>
       <a
-        href="https://github.com/Denisse030/Skincare-Routine-Generator"
+        href="https://github.com/Denisse030/CMS_with_RBAC_Project"
         target="_blank"
         rel="noopener noreferrer"
         style={{

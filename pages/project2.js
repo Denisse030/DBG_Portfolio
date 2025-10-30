@@ -40,7 +40,7 @@ export default function Project2() {
         basics behind this project’s foundation!
       </p>
       <a
-        href="https://github.com/Denisse030/Skincare-Routine-Generator"
+        href="https://github.com/Denisse030/Budgeting101-App"
         target="_blank"
         rel="noopener noreferrer"
         style={{
