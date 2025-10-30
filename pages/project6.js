@@ -10,7 +10,8 @@ export default function Project6() {
         fontFamily: "monospace",
         textAlign: "center",
         backgroundColor: "#fce4ec",
-        minHeight: "87.5vh",
+        minHeight: "100vh",
+        boxSizing: "border-box",
       }}
     >
       <h1>📽️ Horror Movie Catalog</h1>
@@ -33,75 +34,76 @@ export default function Project6() {
         the future.
       </p>
       <a
-  href="https://github.com/Denisse030/Movie-Catalog.git"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: "inline-block",
-    marginTop: "16px",
-    fontSize: "15px",
-    backgroundColor: "#fcddec",
-    color: "#000",
-    padding: "10px 16px",
-    borderRadius: "8px",
-    textDecoration: "none",
-    fontWeight: "bold",
-    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-    transition: "all 0.3s ease-in-out",
-  }}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.backgroundColor = "#fe8ebdd3";
-    e.currentTarget.style.transform = "scale(1.03)";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.backgroundColor = "#fcddec";
-    e.currentTarget.style.transform = "scale(1)";
-  }}
->
-  🔗 View GitHub Project
-</a>
-
-      <br></br>
-
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-          gap: "20px",
-          marginTop: "30px",
-        }}
+      href="https://github.com/Denisse030/Movie-Catalog.git"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: "inline-block",
+        marginTop: "16px",
+        fontSize: "15px",
+        backgroundColor: "#fcddec",
+        color: "#000",
+        padding: "10px 16px",
+        borderRadius: "8px",
+        textDecoration: "none",
+        fontWeight: "bold",
+        boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+        transition: "all 0.3s ease-in-out",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = "#fe8ebdd3";
+        e.currentTarget.style.transform = "scale(1.03)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = "#fcddec";
+        e.currentTarget.style.transform = "scale(1)";
+      }}
       >
-        <Image
-          src="/images/horrormovie-cover.png"
-          alt="Project Screenshot 1"
-          width={500}
-          height={300}
-          style={{ borderRadius: "12px" }}
-        />
-        <Image
-          src="/images/movieposters.png"
-          alt="Project Screenshot 2"
-          width={500}
-          height={300}
-          style={{ borderRadius: "12px" }}
-        />
-        <Image
-          src="/images/moviesoundtracks.png"
-          alt="Project Screenshot 3"
-          width={500}
-          height={300}
-          style={{ borderRadius: "12px" }}
-        />
-        <Image
-          src="/images/movietrailers.png"
-          alt="Project Screenshot 4"
-          width={500}
-          height={300}
-          style={{ borderRadius: "12px" }}
-        />
-      </div>
+        🔗 View GitHub Project
+      </a>
+      <br></br>
+      <br></br>
+      <div className="image-grid">
+        <div className="pop-image">
+          <Image
+            src="/images/horrormovie-cover.png"
+            alt="Project Screenshot 1"
+            width={500}
+            height={300}
+            style={{ borderRadius: "12px" }}
+          />
+        </div>
 
+        <div className="pop-image">
+          <Image
+            src="/images/movieposters.png"
+            alt="Project Screenshot 2"
+            width={500}
+            height={300}
+            style={{ borderRadius: "12px" }}
+          />
+        </div>
+
+        <div className="pop-image">
+          <Image
+            src="/images/moviesoundtracks.png"
+            alt="Project Screenshot 3"
+            width={500}
+            height={300}
+            style={{ borderRadius: "12px" }}
+          />
+        </div>
+
+        <div className="pop-image">
+          <Image
+            src="/images/movietrailers.png"
+            alt="Project Screenshot 4"
+            width={500}
+            height={300}
+            style={{ borderRadius: "12px" }}
+          />
+        </div>
+      </div>
       <Link
         href="/"
         style={{
@@ -128,6 +130,37 @@ export default function Project6() {
       >
         🔙 Go Back to Home
       </Link>
+
+      <style jsx>{`
+      .image-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      }
+
+      .pop-image {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        border-radius: 12px;
+      }
+
+      .pop-image:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        .image-grid {
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .pop-image :global(img) {
+          width: 90% !important;
+          height: auto !important;
+        }
+      `}</style>
     </div>
   );
 }

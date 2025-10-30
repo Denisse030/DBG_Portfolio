@@ -10,37 +10,85 @@ export default function Project5() {
         fontFamily: "monospace",
         textAlign: "center",
         backgroundColor: "#fce4ec",
-        minHeight: "87.5vh",
+        minHeight: "100vh",
+        boxSizing: "border-box",
       }}
     >
-      <h1>🏢 Sample Company Website</h1>
+      <h1>🧴 Skincare Routine Generator (Skin 1004 Edition)</h1>
       <h2>
-        Project created to help small businesses or serve as a portfolio layout
-        for individuals.
+        Project created to help users build personalized skincare routines.
       </h2>
       <br></br>
       <p>
-        This Sample Company Website is a modern, fully responsive website
-        designed to be a versatile template for startups, small businesses, or
-        personal brands. Built using React, Tailwind CSS, and Swiper.js, the
-        site features essential pages such as Home, About, Services, Portfolio,
-        and Contact, along with an interactive services slider enhanced with
-        custom navigation. The clean, scalable layout adapts seamlessly across
-        desktop, tablet, and mobile devices and includes dark mode support for a
-        contemporary user experience. This front-end project also incorporates a
-        contact form (ready to be hooked to a backend or service like EmailJS),
-        modular components, and organized folder structure—making it easy to
-        customize for different branding needs. Ideal for developers looking for
-        a sleek and functional starting point.
+        This Python-based program creates personalized morning <b>(AM)</b> and night <b>(PM)</b> skincare routines using only Skin 1004 products. By entering your skin type and specific concerns, the tool curates a complete routine tailored to your individual needs. It not only matches products to your skin type and concerns but also provides <b>product warnings, usage notes, and tips for treatments and masks</b>. Users can view each product’s key ingredients and receive detailed insights through an intuitive, interactive command-line interface. 
+        <br></br>
+        <br></br>
+        <b>To get started</b>, you simply input your skin type—such as dry, oily, combination, or sensitive—and your main skin concerns, like acne, hydration, or calming. The generator then produces a full skincare routine, complete with ingredient information and personalized product usage guidance.
       </p>
-      <Link
-        href={"https://github.com/Denisse030/Sample-Company-Website"}
+      <a
+        href="https://github.com/Denisse030/Skincare-Routine-Generator"
         target="_blank"
         rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          marginTop: "16px",
+          fontSize: "15px",
+          backgroundColor: "#fcddec",
+          color: "#000",
+          padding: "10px 16px",
+          borderRadius: "8px",
+          textDecoration: "none",
+          fontWeight: "bold",
+          boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          transition: "all 0.3s ease-in-out",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = "#fe8ebdd3";
+          e.currentTarget.style.transform = "scale(1.03)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = "#fcddec";
+          e.currentTarget.style.transform = "scale(1)";
+        }}
       >
-        Link to GitHub Project
-      </Link>
+        🔗 View GitHub Project
+      </a>
       <br></br>
+      <br></br>
+      <h3>Click below to watch the Demo Video!</h3>
+
+      <div
+        style={{
+          marginTop: "20px",
+          borderRadius: "12px",
+          border: "solid pink",
+          overflow: "hidden",
+          maxWidth: "480px",
+          height: "270px",
+          alignItems: "center",
+          marginLeft: "auto",
+          marginRight: "auto",
+          transition: "transform 0.3s ease-in-out",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.03)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+        }}
+      >
+        <iframe 
+        width="100%" 
+        height="100%" 
+        src="https://www.youtube.com/embed/HDhuMuWVY4Y?si=G73e-gbY3t-z7kQ7" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        style={{ border: "none", alignItems: "center" }}
+        ></iframe>
+      </div>
 
       <Link
         href="/"
@@ -68,6 +116,15 @@ export default function Project5() {
       >
         🔙 Go Back to Home
       </Link>
+      <style>
+      {`
+        @media (max-width: 600px) {
+          div {
+            font-size: 14px;
+          }
+        }
+      `}
+      </style>
     </div>
   );
 }

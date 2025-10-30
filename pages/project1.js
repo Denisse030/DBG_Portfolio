@@ -9,7 +9,8 @@ export default function Project1() {
         fontFamily: "monospace",
         textAlign: "center",
         backgroundColor: "#fce4ec",
-        minHeight: "87.5vh",
+        minHeight: "100vh",
+        boxSizing: "border-box",
       }}
     >
       <h1>
@@ -37,15 +38,36 @@ export default function Project1() {
         CSS, and EJS, was fully responsive across devices, and featured an admin
         dashboard for managing users, reviewing logs, and assigning permissions.
       </p>
-      <Link
-        href={"https://github.com/Denisse030/CMS_with_RBAC_Project"}
+      <a
+        href="https://github.com/Denisse030/Skincare-Routine-Generator"
         target="_blank"
         rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          marginTop: "16px",
+          fontSize: "15px",
+          backgroundColor: "#fcddec",
+          color: "#000",
+          padding: "10px 16px",
+          borderRadius: "8px",
+          textDecoration: "none",
+          fontWeight: "bold",
+          boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          transition: "all 0.3s ease-in-out",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = "#fe8ebdd3";
+          e.currentTarget.style.transform = "scale(1.03)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = "#fcddec";
+          e.currentTarget.style.transform = "scale(1)";
+        }}
       >
-        Link to GitHub Project
-      </Link>
+        🔗 View GitHub Project
+      </a>
       <br></br>
-
+      <br></br>
       <h3>Click below to watch the Demo Video!</h3>
 
       <div
@@ -106,6 +128,15 @@ export default function Project1() {
       >
         🔙 Go Back to Home
       </Link>
+      <style>
+      {`
+        @media (max-width: 600px) {
+          div {
+            font-size: 14px;
+          }
+        }
+      `}
+      </style>
     </div>
   );
 }
