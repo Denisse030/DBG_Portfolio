@@ -9,7 +9,7 @@ export default function BottomNav() {
         <div className={styles.projectIcons}>
           <Link href="/project1">🪪</Link>
           <Link href="/project2">📊</Link>
-          {/* <Link href="/project3">🍽️</Link> */}
+          <Link href="/project3">💄</Link>
           {/* <Link href="/project4">🔮</Link> */}
           <Link href="/project5">🧴</Link>
           <Link href="/project6">📽️</Link>
