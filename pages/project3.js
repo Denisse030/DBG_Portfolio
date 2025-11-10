@@ -14,7 +14,7 @@ export default function Project3() {
       }}
     >
       <h1>💄 Sample Company Webiste (Beauty Within)</h1>
-      <h2>Project created to track personal expenses.</h2>
+      <h2>Project created to showcase beauty and wellness services.</h2>
       <br></br>
       <p>
         This Sample Company Website (Beauty Within) is a modern, responsive, and visually engaging website built with Next.js and Tailwind CSS. While the current demo focuses on beauty and wellness services, it is fully customizable and can be adapted for any type of business or portfolio. The site features dark mode support, smooth animations, a dynamic contact form powered by Web3Forms, and reusable components for easy scalability. Dedicated sections showcase services, individual work pages,like the Haircare page, allow detailed presentation of what the company is offering. Designed with user experience and accessibility in mind, it’s ideal for any company or creator looking to establish a professional online presence.
