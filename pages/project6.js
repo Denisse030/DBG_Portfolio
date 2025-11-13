@@ -14,7 +14,7 @@ export default function Project6() {
         boxSizing: "border-box",
       }}
     >
-      <h1>📽️ Horror Movie Catalog</h1>
+      <h1>Horror Movie Catalog</h1>
       <h2>
         Project developed during my time at the Tech Talent Pipeline Full-Stack
         Bootcamp

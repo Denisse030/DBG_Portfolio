@@ -14,7 +14,7 @@ export default function Project5() {
         boxSizing: "border-box",
       }}
     >
-      <h1>🧴 Skincare Routine Generator (Skin 1004 Edition)</h1>
+      <h1>Skincare Routine Generator (Skin 1004 Edition)</h1>
       <h2>
         Project created to help users build personalized skincare routines.
       </h2>

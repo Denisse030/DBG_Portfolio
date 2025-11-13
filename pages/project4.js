@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function Project2() {
+export default function Project3() {
   return (
     <div
       style={{
@@ -13,34 +13,18 @@ export default function Project2() {
         boxSizing: "border-box",
       }}
     >
-      <h1>Budgeting101 App</h1>
-      <h2>Project created to track personal expenses.</h2>
+      <h1>Beauty Outlet — E-Commerce Frontend</h1>
+      <h2>A responsive React-based e-commerce frontend for a beauty and skincare store, built with modern UI design and clean, scalable code.</h2>
       <br></br>
       <p>
-        Budgeting101 is a responsive, multi-user budgeting web application built
-        with React that empowers users to track expenses, manage custom budgets,
-        and gain visual insights into their financial habits. This project was
-        inspired by a tutorial from Net Ninja on YouTube, which provided the
-        foundation for the original structure. I updated outdated code,
-        modernized the tech stack, and added new features such as multi-user
-        support with personalized data stored in localStorage, a dark mode
-        toggle that persists user preferences across sessions, and a dynamic
-        dashboard that visualizes spending trends through interactive pie, bar,
-        and line charts using Recharts.
+        Beauty Outlet is a responsive e-commerce web application designed for a beauty and skincare store. Built with React.js, Tailwind CSS, and React Router, it delivers a modern, user-friendly shopping experience through clean layouts, smooth navigation, and dynamic state management. The project includes core e-commerce features such as product listings, detailed product pages with image galleries and variant selection, and a simulated shopping cart that calculates subtotals and totals on the frontend. Its responsive design ensures optimal performance across mobile, tablet, and desktop devices.
         <br></br>
         <br></br>
-        Users can easily create and assign expenses to custom budgets while
-        receiving real-time alerts when 80% or more of a budget has been used.
-        Built with React, JavaScript, React Router, and CSS, Budgeting101
-        delivers a sleek and accessible experience optimized for both desktop
-        and mobile devices.
+        This project highlights my ability to create scalable, component-based user interfaces while maintaining a strong focus on design and usability. It also demonstrates my understanding of modern frontend tools and workflows, including the React Context API for state management and Vite for efficient development. Future improvements include integrating backend functionality for authentication, order management, and payments to evolve Beauty Outlet into a fully functional online store.
         <br></br>
-        <br></br>
-        🎥 Check out the original tutorial by Net Ninja on YouTube to learn the
-        basics behind this project’s foundation!
       </p>
       <a
-        href="https://github.com/Denisse030/Budgeting101-App"
+        href="https://github.com/Denisse030/Beauty-Outlet"
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -91,16 +75,16 @@ export default function Project2() {
           e.currentTarget.style.transform = "scale(1)";
         }}
       >
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/HXGR01qh7to?si=XMI8Qk0ulJjlsPDT"
-          title="Capstone Project Demo"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-          referrerPolicy="strict-origin-when-cross-origin"
-          style={{ border: "none", alignItems: "center" }}
-        ></iframe>
+        <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/embed/50IS17RSqN8?si=1OOBDRTJjf31iXC2" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"
+            style={{ border: "none", alignItems: "center" }}
+            allowfullscreen>
+        </iframe>
       </div>
 
       <Link

@@ -13,7 +13,7 @@ export default function Project3() {
         boxSizing: "border-box",
       }}
     >
-      <h1>💄 Sample Company Webiste (Beauty Within)</h1>
+      <h1>Sample Company Webiste (Beauty Within)</h1>
       <h2>Project created to showcase beauty and wellness services.</h2>
       <br></br>
       <p>

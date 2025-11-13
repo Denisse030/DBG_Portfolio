@@ -14,7 +14,7 @@ export default function Project1() {
       }}
     >
       <h1>
-        🪪 Content Management System with Role-Based Access Control, Blockchain
+        Content Management System with Role-Based Access Control, Blockchain
         Logging & Machine Learning Integration
       </h1>
       <h2>Senior Capstone Project – John Jay College</h2>
