@@ -33,6 +33,8 @@ export default function Project6() {
         for more complex JavaScript-based applications that I would develop in
         the future.
       </p>
+      <h2>Tech Stack</h2>
+      <p><b>HTML/CSS, Static Content</b></p>
       <a
       href="https://github.com/Denisse030/Movie-Catalog.git"
       target="_blank"

@@ -5,7 +5,7 @@ export default function BottomNav() {
   return (
     <div className={styles.bottomNavWrapper}>
       <div className={styles.bottomNav}>
-        <p className={styles.projectLabel}>Projects</p>
+        <p className={styles.projectLabel}>Projects (Click on the icons!)</p>
         <div className={styles.projectIcons}>
           <Link href="/project1">🪪</Link>
           <Link href="/project2">📊</Link>

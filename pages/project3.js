@@ -23,6 +23,8 @@ export default function Project3() {
         This project demonstrates my ability to create polished, user-friendly web applications that effectively communicate a brand’s identity and offerings. Whether you’re a small business, freelancer, or creative professional, this template provides a solid foundation to build upon and customize to your specific needs.
         <br></br>
       </p>
+      <h2>Tech Stack</h2>
+      <p><b>React, JavaScript, HTML, CSS, Tailwind CSS, Swiper.js</b></p>
       <a
         href="https://github.com/Denisse030/Sample-Company-Website"
         target="_blank"

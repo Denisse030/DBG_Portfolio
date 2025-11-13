@@ -23,6 +23,8 @@ export default function Project3() {
         This project highlights my ability to create scalable, component-based user interfaces while maintaining a strong focus on design and usability. It also demonstrates my understanding of modern frontend tools and workflows, including the React Context API for state management and Vite for efficient development. Future improvements include integrating backend functionality for authentication, order management, and payments to evolve Beauty Outlet into a fully functional online store.
         <br></br>
       </p>
+      <h2>Tech Stack</h2>
+      <p><b>React.js, React Router, Tailwind CSS</b></p>
       <a
         href="https://github.com/Denisse030/Beauty-Outlet"
         target="_blank"

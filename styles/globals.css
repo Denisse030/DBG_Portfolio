@@ -32,7 +32,7 @@ body {
 
 
 .profile-section {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
  height: 550px;
  display: flex;
  font: bold;
@@ -54,7 +54,7 @@ body {
 
 
 .about-section {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
  padding: 10px;
  border-radius: 10px;
 }
@@ -72,7 +72,7 @@ body {
 
 
 .tools-section {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
  height: min-content;
  padding: 10px;
  border-radius: 10px;
@@ -89,9 +89,38 @@ body {
  text-align: center;
 }
 
+.media-section {
+ background-color: #edcafdd3;
+ height: min-content;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+
+.media-section h3 {
+ text-align: center;
+}
+
+.media-section p {
+ text-align: center;
+ font-size: 16px;
+ color: #000000d3;
+}
+
+.media-section a {
+ font-weight: bold;
+ text-align: center;
+ font-size: 16px;
+ color: #000000d3;
+}
+
+.media-section:hover a {
+  color: #c13bffd3;
+}
+
 
 .clock-section {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
  padding: 3px;
 }
 
@@ -102,7 +131,7 @@ body {
 
 
 .education-section {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
 }
 
 
@@ -118,7 +147,8 @@ body {
 
 
 .contact-section {
- background-color: #fdcadfd3;
+
+ background-color: #edcafdd3;
  padding: 3px;
 }
 
@@ -132,7 +162,11 @@ body {
 .contact-section h4 {
  text-align: center;
  font-size: 16px;
- color: #e54a9a;
+ color: #000000d3;
+}
+
+.contact-section:hover h4 {
+  color: #c13bffd3;
 }
 
 
@@ -144,12 +178,12 @@ Link {
 
 
 .music-section {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
 }
 
 
 .music-player {
- background-color: #fdcadfd3;
+ background-color: #edcafdd3;
  border-radius: 10px;
  padding: 3px;
  text-align: center;
@@ -166,7 +200,7 @@ Link {
 
 
 .music-btn {
- background-color: #fe8ebdd3;
+ background-color: #d37afcd3;
  border: none;
  border-radius: 6px;
  padding: 10px 10px;
@@ -178,7 +212,7 @@ Link {
 
 
 .music-btn:hover {
- background-color: #faaff0;
+ background-color: #c13bffd3;
 }
 
 
@@ -188,61 +222,17 @@ Link {
  overflow: hidden;
 }
 
-
-@media (max-width: 768px) {
- .section {
-   padding: 8px;
-   font-size: 14px;
- }
-
-
- .profile-section {
-   flex-direction: column;
-   height: auto;
- }
-
-
- .profile-img {
-   width: 100%;
-   height: auto;
-   max-width: 280px;
- }
-
-
- .music-btn {
-   font-size: 12px;
-   padding: 8px;
- }
-
-
- .music-player {
-   padding: 6px;
- }
-}
-
-
 .section:active,
 .music-player:active,
 .contact-section:active,
 .profile-section:active,
 .about-section:active,
 .tools-section:active,
-.clock-section:active {
+.clock-section:active,
+.media-section:active {
  transform: translateY(-2px);
  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
-
-
-.section,
-.music-player,
-.contact-section,
-.profile-section,
-.about-section,
-.tools-section,
-.clock-section {
- transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
 
 .modal-backdrop {
  position: fixed;
@@ -259,7 +249,7 @@ Link {
 
 
 .modal-content {
- background-color: #ffd9e9;
+ background-color: #edcafdd3;
  border-radius: 10px;
  padding: 30px;
  max-width: 500px;
@@ -275,5 +265,34 @@ Link {
  padding: 4px;
  margin: 10px 0;
  border-radius: 4px;
- border: 1px solid #da7cc3;
+ border: 1px solid #edcafdd3;
 }
+
+@media (max-width: 768px) {
+  .section,
+  .profile-section,
+  .about-section,
+  .tools-section,
+  .media-section,
+  .clock-section,
+  .education-section,
+  .contact-section,
+  .music-section {
+    width: 100%;
+    min-height: 250px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+  }
+}
+

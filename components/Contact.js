@@ -13,9 +13,7 @@ export default function Contact() {
           Click here to send me a message
         </button>
       </p>
-
       {isOpen && <ContactModal onClose={() => setIsOpen(false)} />}
-
       <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         <h4>View My Resume</h4>
       </Link>

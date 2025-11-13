@@ -25,6 +25,8 @@ export default function Project5() {
         <br></br>
         <b>To get started</b>, you simply input your skin type—such as dry, oily, combination, or sensitive—and your main skin concerns, like acne, hydration, or calming. The generator then produces a full skincare routine, complete with ingredient information and personalized product usage guidance.
       </p>
+      <h2>Tech Stack</h2>
+      <p><b>Python, Python’s built-in typing module, JSON for data storage/loading, Command-line interface (CLI) </b></p>
       <a
         href="https://github.com/Denisse030/Skincare-Routine-Generator"
         target="_blank"
@@ -80,7 +82,7 @@ export default function Project5() {
         <iframe 
         width="100%" 
         height="100%" 
-        src="https://www.youtube.com/embed/HDhuMuWVY4Y?si=G73e-gbY3t-z7kQ7" 
+        src="https://www.youtube.com/embed/yoVH6cox4H4?si=V9AMd_f_swTzMIet" 
         title="YouTube video player" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 

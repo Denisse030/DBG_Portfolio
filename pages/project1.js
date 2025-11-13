@@ -20,24 +20,16 @@ export default function Project1() {
       <h2>Senior Capstone Project – John Jay College</h2>
       <br></br>
       <p>
-        Led a team of four in designing and developing a full-stack
-        cybersecurity web application as part of a senior capstone project. The
-        system features secure user authentication, role-based access control
-        (RBAC), and content moderation capabilities for Admins, Moderators, and
-        Clients. I was responsible for system architecture, and backend
-        implementation.
+        Led a team of four in designing and developing a full-stack cybersecurity web application as part of a senior capstone project. The system features secure user authentication, role-based access control (RBAC), and content moderation capabilities for Admins, Moderators, and Clients. I was responsible for system architecture, and backend implementation.
         <br></br>
         <br></br>
-        To enhance security and auditability, I integrated blockchain technology
-        using Solidity smart contracts and Web3.js to store immutable logs of
-        user activities on the Ethereum network. For proactive threat detection,
-        I implemented machine learning-based anomaly detection using
-        Simple-Statistics to identify irregular login patterns. The backend
-        stack included Node.js, Express.js, MongoDB, Passport.js, and Bcrypt for
-        secure authentication and data handling. The frontend, built with HTML,
-        CSS, and EJS, was fully responsive across devices, and featured an admin
-        dashboard for managing users, reviewing logs, and assigning permissions.
+        To enhance security and auditability, I integrated blockchain technology using Solidity smart contracts and Web3.js to store immutable logs of user activities on the Ethereum network. For proactive threat detection, I implemented machine learning-based anomaly detection using Simple-Statistics to identify irregular login patterns. The backend stack included Node.js, Express.js, MongoDB, Passport.js, and Bcrypt for secure authentication and data handling. The frontend, built with HTML, CSS, and EJS, was fully responsive across devices, and featured an admin dashboard for managing users, reviewing logs, and assigning permissions.
       </p>
+      <h2>Tech Stack</h2>
+      <p><b>Frontend: HTML5, CSS3, EJS</b></p>
+      <p><b>Backend: Node.js, Express.js, MongoDB, Solidity, Web3.js</b></p>
+      <p><b>Machine Learning: Simple-Statistics</b></p>
+      <p><b>Authentication:Passport.js, Bcrypt </b></p>
       <a
         href="https://github.com/Denisse030/CMS_with_RBAC_Project"
         target="_blank"

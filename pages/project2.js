@@ -17,28 +17,16 @@ export default function Project2() {
       <h2>Project created to track personal expenses.</h2>
       <br></br>
       <p>
-        Budgeting101 is a responsive, multi-user budgeting web application built
-        with React that empowers users to track expenses, manage custom budgets,
-        and gain visual insights into their financial habits. This project was
-        inspired by a tutorial from Net Ninja on YouTube, which provided the
-        foundation for the original structure. I updated outdated code,
-        modernized the tech stack, and added new features such as multi-user
-        support with personalized data stored in localStorage, a dark mode
-        toggle that persists user preferences across sessions, and a dynamic
-        dashboard that visualizes spending trends through interactive pie, bar,
-        and line charts using Recharts.
+        Budgeting101 is a responsive, multi-user budgeting web application built with React that empowers users to track expenses, manage custom budgets, and gain visual insights into their financial habits. This project was inspired by a tutorial from Net Ninja on YouTube, which provided the foundation for the original structure. I updated outdated code, modernized the tech stack, and added new features such as multi-user support with personalized data stored in localStorage, a dark mode toggle that persists user preferences across sessions, and a dynamic dashboard that visualizes spending trends through interactive pie, bar, and line charts using Recharts.
         <br></br>
         <br></br>
-        Users can easily create and assign expenses to custom budgets while
-        receiving real-time alerts when 80% or more of a budget has been used.
-        Built with React, JavaScript, React Router, and CSS, Budgeting101
-        delivers a sleek and accessible experience optimized for both desktop
-        and mobile devices.
+        Users can easily create and assign expenses to custom budgets while receiving real-time alerts when 80% or more of a budget has been used .Built with React, JavaScript, React Router, and CSS, Budgeting101 delivers a sleek and accessible experience optimized for both desktop and mobile devices.
         <br></br>
         <br></br>
-        🎥 Check out the original tutorial by Net Ninja on YouTube to learn the
-        basics behind this project’s foundation!
+        🎥 Check out the original tutorial by Net Ninja on YouTube to learn the basics behind this project’s foundation!
       </p>
+      <h2>Tech Stack</h2>
+      <p><b>React, JavaScript, React Router, CSS, Recharts, React hooks, and localStorage</b></p>
       <a
         href="https://github.com/Denisse030/Budgeting101-App"
         target="_blank"

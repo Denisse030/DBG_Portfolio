@@ -8,6 +8,7 @@ import BottomNav from "../components/BottomNav";
 import Education from "../components/Education";
 
 import styles from "../styles/Home.module.css";
+import Media from "@/components/Media";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <div className={styles.rightCol}>
           <Tools />
           <Contact />
+          <Media />
           <MusicPlayer />
         </div>
       </div>

@@ -30,9 +30,7 @@ export default function MusicPlayer() {
       <h3>🎶 Lo-fi Chill    <audio ref={audioRef} src="/music/lofi.mp3" preload="auto" />
       <button onClick={isPlaying ? togglePause : togglePlay} className="music-btn">
         {isPlaying ? '⏸ Pause' : '▶️ Play'}
-      </button></h3>  
-      <p><b>Songs I Recommend:</b> Caribbean Blue by <i>Enya</i>, Golden Brown by <i>The Straglers</i>, Still With You by <i>Jung Kook</i></p>    
-      
+      </button></h3>   
     </div>
   );
 }
