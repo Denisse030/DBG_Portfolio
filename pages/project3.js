@@ -13,20 +13,20 @@ export default function Project3() {
         boxSizing: "border-box",
       }}
     >
-      <h1>Sample Company Webiste (Beauty Within)</h1>
-      <h2>Project created to showcase beauty and wellness services.</h2>
+      <h1>Dulce Aroma - Coffee Shop Website Design</h1>
+      <h2>A warm, inviting web experience inspired by the craft of coffee and café culture.</h2>
       <br></br>
       <p>
-        This Sample Company Website (Beauty Within) is a modern, responsive, and visually engaging website built with Next.js and Tailwind CSS. While the current demo focuses on beauty and wellness services, it is fully customizable and can be adapted for any type of business or portfolio. The site features dark mode support, smooth animations, a dynamic contact form powered by Web3Forms, and reusable components for easy scalability. Dedicated sections showcase services, individual work pages,like the Haircare page, allow detailed presentation of what the company is offering. Designed with user experience and accessibility in mind, it’s ideal for any company or creator looking to establish a professional online presence.
+        Café Dulce Aroma is a responsive web experience inspired by the warmth and creativity of café culture. I designed and developed the site to showcase curated coffee recipes, highlight brewing techniques, and share personalized café recommendations through interactive visuals and smooth UI animations. The project focuses on creating an inviting digital atmosphere, combining strong visual storytelling with practical features like a downloadable recipe carousel and an integrated contact form.
         <br></br>
         <br></br>
-        This project demonstrates my ability to create polished, user-friendly web applications that effectively communicate a brand’s identity and offerings. Whether you’re a small business, freelancer, or creative professional, this template provides a solid foundation to build upon and customize to your specific needs.
+        This project demonstrates my ability to build modern, user-centered interfaces while integrating third-party tools and interactive components. I implemented a dynamic map for café recommendations, ensured mobile-first responsiveness, and crafted a cohesive visual identity across the entire site. Through this build, I strengthened my front-end architecture skills, refined my approach to component design, and delivered a polished, engaging experience optimized for all screen sizes.
         <br></br>
       </p>
       <h2>Tech Stack</h2>
-      <p><b>React, JavaScript, HTML, CSS, Tailwind CSS, Swiper.js</b></p>
+      <p><b>React, Tailwind CSS, JavaScript, React Leaflet, Web3Forms API, HTML/CSS</b></p>
       <a
-        href="https://github.com/Denisse030/Sample-Company-Website"
+        href="https://github.com/Denisse030/Dulce-Aroma"
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -77,17 +77,16 @@ export default function Project3() {
           e.currentTarget.style.transform = "scale(1)";
         }}
       >
-        <iframe
-            width="100%" 
-            height="100%" 
-            src="https://www.youtube.com/embed/Tf2uxGsjvYc?si=2e93wTdIGNjZ3rJ6" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerPolicy="strict-origin-when-cross-origin"
-            style={{ border: "none", alignItems: "center" }}
-            allowfullscreen>
-        </iframe>
+        <iframe 
+        width="100%" 
+        height="100%" 
+        src="https://www.youtube.com/embed/fKSCBcATJPE?si=u_S8QA9XIHgvqpTX" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        style={{ border: "none", alignItems: "center" }}
+        allowfullscreen></iframe>
       </div>
 
       <Link

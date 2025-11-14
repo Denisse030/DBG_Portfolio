@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
-export default function Project6() {
+export default function Project7() {
   return (
     <div
       style={{
@@ -14,98 +13,83 @@ export default function Project6() {
         boxSizing: "border-box",
       }}
     >
-      <h1>Horror Movie Catalog</h1>
-      <h2>
-        Project developed during my time at the Tech Talent Pipeline Full-Stack
-        Bootcamp
-      </h2>
+      <h1>Sample Company Webiste (Beauty Within)</h1>
+      <h2>Project created to showcase beauty and wellness services.</h2>
       <br></br>
       <p>
-        This Horror Movie Catalog is a beginner-friendly web application that
-        allows users to browse and explore a curated list of some of my favorite
-        movies through a clean and responsive interface. Built with HTML, CSS,
-        and JavaScript, this project demonstrates foundational front-end
-        development skills including layout design, responsive styling, and DOM
-        manipulation. Users can view movie details such as posters, titles,
-        trailers, and the movies soundtracks, making it an engaging and visually
-        appealing experience. This project served as an introduction to working
-        with static data and UI presentation, and it helped lay the groundwork
-        for more complex JavaScript-based applications that I would develop in
-        the future.
+        This Sample Company Website (Beauty Within) is a modern, responsive, and visually engaging website built with Next.js and Tailwind CSS. While the current demo focuses on beauty and wellness services, it is fully customizable and can be adapted for any type of business or portfolio. The site features dark mode support, smooth animations, a dynamic contact form powered by Web3Forms, and reusable components for easy scalability. Dedicated sections showcase services, individual work pages,like the Haircare page, allow detailed presentation of what the company is offering. Designed with user experience and accessibility in mind, it’s ideal for any company or creator looking to establish a professional online presence.
+        <br></br>
+        <br></br>
+        This project demonstrates my ability to create polished, user-friendly web applications that effectively communicate a brand’s identity and offerings. Whether you’re a small business, freelancer, or creative professional, this template provides a solid foundation to build upon and customize to your specific needs.
+        <br></br>
       </p>
       <h2>Tech Stack</h2>
-      <p><b>HTML/CSS, Static Content</b></p>
+      <p><b>React, JavaScript, HTML, CSS, Tailwind CSS, Swiper.js</b></p>
       <a
-      href="https://github.com/Denisse030/Movie-Catalog.git"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        display: "inline-block",
-        marginTop: "16px",
-        fontSize: "15px",
-        backgroundColor: "#fcddec",
-        color: "#000",
-        padding: "10px 16px",
-        borderRadius: "8px",
-        textDecoration: "none",
-        fontWeight: "bold",
-        boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-        transition: "all 0.3s ease-in-out",
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.backgroundColor = "#fe8ebdd3";
-        e.currentTarget.style.transform = "scale(1.03)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.backgroundColor = "#fcddec";
-        e.currentTarget.style.transform = "scale(1)";
-      }}
+        href="https://github.com/Denisse030/Sample-Company-Website"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          marginTop: "16px",
+          fontSize: "15px",
+          backgroundColor: "#fcddec",
+          color: "#000",
+          padding: "10px 16px",
+          borderRadius: "8px",
+          textDecoration: "none",
+          fontWeight: "bold",
+          boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          transition: "all 0.3s ease-in-out",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = "#fe8ebdd3";
+          e.currentTarget.style.transform = "scale(1.03)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = "#fcddec";
+          e.currentTarget.style.transform = "scale(1)";
+        }}
       >
         🔗 View GitHub Project
       </a>
       <br></br>
       <br></br>
-      <div className="image-grid">
-        <div className="pop-image">
-          <Image
-            src="/images/horrormovie-cover.png"
-            alt="Project Screenshot 1"
-            width={500}
-            height={300}
-            style={{ borderRadius: "12px" }}
-          />
-        </div>
+      <h3>Click below to watch the Demo Video!</h3>
 
-        <div className="pop-image">
-          <Image
-            src="/images/movieposters.png"
-            alt="Project Screenshot 2"
-            width={500}
-            height={300}
-            style={{ borderRadius: "12px" }}
-          />
-        </div>
-
-        <div className="pop-image">
-          <Image
-            src="/images/moviesoundtracks.png"
-            alt="Project Screenshot 3"
-            width={500}
-            height={300}
-            style={{ borderRadius: "12px" }}
-          />
-        </div>
-
-        <div className="pop-image">
-          <Image
-            src="/images/movietrailers.png"
-            alt="Project Screenshot 4"
-            width={500}
-            height={300}
-            style={{ borderRadius: "12px" }}
-          />
-        </div>
+      <div
+        style={{
+          marginTop: "20px",
+          borderRadius: "12px",
+          border: "solid pink",
+          overflow: "hidden",
+          maxWidth: "480px",
+          height: "270px",
+          alignItems: "center",
+          marginLeft: "auto",
+          marginRight: "auto",
+          transition: "transform 0.3s ease-in-out",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.03)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+        }}
+      >
+        <iframe
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/embed/Tf2uxGsjvYc?si=2e93wTdIGNjZ3rJ6" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin"
+            style={{ border: "none", alignItems: "center" }}
+            allowfullscreen>
+        </iframe>
       </div>
+
       <Link
         href="/"
         style={{
@@ -132,37 +116,15 @@ export default function Project6() {
       >
         🔙 Go Back to Home
       </Link>
-
-      <style jsx>{`
-      .image-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 30px;
-      }
-
-      .pop-image {
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        border-radius: 12px;
-      }
-
-      .pop-image:hover {
-        transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      }
-
-      @media (max-width: 768px) {
-        .image-grid {
-        flex-direction: column;
-        align-items: center;
+      <style>
+      {`
+        @media (max-width: 600px) {
+          div {
+            font-size: 14px;
+          }
         }
-
-        .pop-image :global(img) {
-          width: 90% !important;
-          height: auto !important;
-        }
-      `}</style>
+      `}
+      </style>
     </div>
   );
 }

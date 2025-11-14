@@ -13,8 +13,8 @@ export default function Project3() {
         boxSizing: "border-box",
       }}
     >
-      <h1>Beauty Outlet — E-Commerce Frontend</h1>
-      <h2>A responsive React-based e-commerce frontend for a beauty and skincare store, built with modern UI design and clean, scalable code.</h2>
+      <h1>Beauty Outlet</h1>
+      <h2>A frontend beauty e-commerce site featuring skincare products, built with modern UI design and clean, scalable code.</h2>
       <br></br>
       <p>
         Beauty Outlet is a responsive e-commerce web application designed for a beauty and skincare store. Built with React.js, Tailwind CSS, and React Router, it delivers a modern, user-friendly shopping experience through clean layouts, smooth navigation, and dynamic state management. The project includes core e-commerce features such as product listings, detailed product pages with image galleries and variant selection, and a simulated shopping cart that calculates subtotals and totals on the frontend. Its responsive design ensures optimal performance across mobile, tablet, and desktop devices.

@@ -20,10 +20,10 @@ export default function Project5() {
       </h2>
       <br></br>
       <p>
-        This Python-based program creates personalized morning <b>(AM)</b> and night <b>(PM)</b> skincare routines using only Skin 1004 products. By entering your skin type and specific concerns, the tool curates a complete routine tailored to your individual needs. It not only matches products to your skin type and concerns but also provides <b>product warnings, usage notes, and tips for treatments and masks</b>. Users can view each product’s key ingredients and receive detailed insights through an intuitive, interactive command-line interface. 
+        This Python-based program creates personalized morning <b>(AM)</b> and night <b>(PM)</b> skincare routines using only Skin 1004 products. By entering your skin type and specific concerns, the tool curates a complete routine tailored to your individual needs. It not only matches products to your skin type and concerns but also provides product warnings, usage notes, and tips for treatments and masks. Users can view each product’s key ingredients and receive detailed insights through an intuitive, interactive command-line interface. 
         <br></br>
         <br></br>
-        <b>To get started</b>, you simply input your skin type—such as dry, oily, combination, or sensitive—and your main skin concerns, like acne, hydration, or calming. The generator then produces a full skincare routine, complete with ingredient information and personalized product usage guidance.
+        <b>To get started</b>: input your skin type (dry, oily, combination, or sensitive); and your main skin concerns, like acne, hydration, or calming. The generator then produces a full skincare routine, complete with ingredient information and personalized product usage guidance.
       </p>
       <h2>Tech Stack</h2>
       <p><b>Python, Python’s built-in typing module, JSON for data storage/loading, Command-line interface (CLI) </b></p>
